@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color:grey;
+    height:100px;
+}
+
+header h1 {
+    float:left;
+    color:#f1f1f1;
+}
+
+
+.content_container{
+    background-color:rgb(97, 188, 97);
+    height:750px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content{
+    background-color: rgb(216, 252, 132);
+    width:400px;
+    height:300px;
+    margin-bottom:20px;
+    margin-top:20px;
+   
+}
+
+.content p {
+    text-align: center;
+    padding-top:9rem;
+
+}
+
